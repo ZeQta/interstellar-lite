@@ -1,0 +1,19 @@
+{
+  "name": "AI App Builder",
+  "version": "1.0.0",
+  "buildDate": "2025-08-11T15:10:54.755Z",
+  "fileSize": "34 KB",
+  "features": [
+    "AI-powered code generation",
+    "Monaco Editor integration",
+    "Live preview system",
+    "Project management",
+    "Dark theme UI",
+    "OpenRouter API integration"
+  ],
+  "requirements": [
+    "Modern web browser",
+    "OpenRouter API key",
+    "Internet connection"
+  ]
+}

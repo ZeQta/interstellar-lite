@@ -1,0 +1,29 @@
+{
+  "name": "interstellar-lite-pro",
+  "version": "3.0.0",
+  "description": "Production-ready AI Web Development Platform with GitHub Pages publishing, website cloning, and professional UI",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "npx http-server public -p 3000 -c-1",
+    "dev": "npx http-server public -p 3000 -c-1 --cors",
+    "build": "echo 'Static site - no build required'",
+    "vercel-build": "echo 'Vercel build complete'"
+  },
+  "keywords": [
+    "ai",
+    "web-development",
+    "github-pages",
+    "website-builder",
+    "saas",
+    "monaco-editor",
+    "vercel"
+  ],
+  "author": "Interstellar Lite Pro",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
