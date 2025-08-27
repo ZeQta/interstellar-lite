@@ -1,16 +1,12 @@
 {
   "version": 2,
   "name": "interstellar-lite-pro",
-  "builds": [
-    {
-      "src": "public/**/*",
-      "use": "@vercel/static"
-    }
-  ],
+  "buildCommand": "echo 'Static build complete'",
+  "outputDirectory": "public",
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/public/$1"
+      "dest": "/index.html"
     }
   ],
   "functions": {},
